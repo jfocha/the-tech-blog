@@ -23,7 +23,7 @@
   }
   
   button {
-    background-color: #d9ead3;
+    background-color: #524b4b;
     border: 0;
     padding: 1%;
     color: #d9ead3;
@@ -31,10 +31,18 @@
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
+    display: block;
+    width: 100%;
+    /* border: none; */
+    /* background-color: #04AA6D; */
+    /* padding: 14px 28px; */
+    /* font-size: 16px; */
+    cursor: pointer;
+    text-align: center;
   }
   
   button:hover {
-    background-color: #d9ead3;
+    background-color: #857979;
   }
   
   .post-list {
@@ -46,6 +54,8 @@
     padding: .5%;
     border-radius: 5px;
     border: 1px solid #ccc;
+    display: block;
+    width: 100%;
   }
   
   textarea:focus, input:focus {
@@ -107,6 +117,7 @@
     font-weight: bold;
     transition: color .1s;
     /* margin-left: 16px; */
+    display: flex;
   }
   
   .btn-no-style:hover {
@@ -164,6 +175,7 @@
     font-size: 90%;
     margin-bottom: .5%;
     opacity: .6;
+
   }
   
   .new-post-form input {
@@ -180,4 +192,68 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+  }
+
+  .hero-text {
+    /* background-color: #d9ead3; */
+    color: #231010;
+    font-size: 30px;
+    /* font-weight:900; */
+    text-align: center;
+    margin: 0 40px 40px 40px;
+    border-radius: 10px;
+    background: #d9ead3;
+    padding: 1px;
+    /* width: 200px; */
+    /* height: 150px; */
+    box-shadow: 5px 5px #888888;
+  }
+
+  .link {
+    color: blue;
+    border: none;
+    padding: 0;
+  }
+
+  .link:hover {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: none;
+  }
+
+  /* fieldset {
+    border: 3px solid #231010;
+    padding: 10px;
+  } */
+
+  .title {
+    background: #231010;
+    color: #d9ead3;
+    /* border: 5px solid #231010; */
+    display: block;
+    width: 100%;
+    
+    /* box-sizing: border-box; */
+    padding: 10px;
+  }
+
+  .login-form {
+    border: 3px solid #231010;
+    padding: 20px;
+  }
+
+  .signup-form {
+    border: 3px solid #231010;
+    padding: 20px;
+  }
+
+  .meta {
+    border: 3px solid #231010;
+    padding: 15px 10px 5px 10px;
+  }
+
+  #post-title, #post-url {
+    display: block;
+    width: 100%;
   }
