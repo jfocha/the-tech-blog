@@ -24,7 +24,7 @@
   
   ## Usage 
   
-  ![alt text](assets/images/screenshot.png)
+  ![screenshot](screenshot.png)
   
   
   ## Contributing
